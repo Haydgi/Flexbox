@@ -1,0 +1,159 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(10, 10, 10);
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav div{
+    padding-top: 30px;
+    
+
+}
+
+nav div a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav div a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+nav img{
+    width: 5%;
+    display: flex;
+    border-radius: 50px;
+}
+
+
+header{
+    background-color: rgb(6, 41, 6);
+    color: aliceblue;
+}
+
+header div h1{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.sec1{
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+    text-align: justify;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.sec1 figure{
+width: 30%;
+/*border: 7px solid rgb(0, 255, 242);*/
+}
+.sec1 figure img{
+    width: 100%;
+    border-radius: 50%;
+    }
+
+.sec1 div{
+width: 65%;
+/*border: 7px solid rgb(0, 255, 55);*/
+}
+
+.sec1 div h2{
+border-bottom: 2px solid rgb(44, 44, 44);
+
+    }
+
+.sec1 div p{
+    padding: 10px;
+    line-height: 1.4;
+}
+
+.sec2{
+    margin-top: 20px;
+    background-color: #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.sec2 h2{
+    text-align: center;
+
+}
+
+.sec2 div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin: 0 auto;
+
+    margin-top: 10px;
+}
+
+.sec2 div figure{
+
+    width: 30%;
+}
+
+.sec2 div figure img{
+    width: 80%;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+footer ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/****************************/
+/* GALERIA */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.galeria9{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.galeria9 figure{
+    border: 2px solid red;
+    width: 10%;
+}
+
+.galeria9 figure img{
+    width: 100%;
+}
